@@ -2,6 +2,6 @@
 
 env
 
-echo "This is a failed job"
+echo "This not a failed job anymore"
 
-exit -1
+exit 0
