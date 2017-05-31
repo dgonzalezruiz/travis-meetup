@@ -2,3 +2,7 @@ language: bash
 sudo: required
 
 script: sudo $TRAVIS_BUILD_DIR/fail.sh
+
+env: 
+  - EXIT_STATUS=0
+  - EXIT_STATUS=1

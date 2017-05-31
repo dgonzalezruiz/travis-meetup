@@ -2,6 +2,6 @@
 
 env
 
-echo "This is a failed job"
+echo "This is, perhaps, a failed job"
 
-exit -1
+exit $EXIT_STATUS
